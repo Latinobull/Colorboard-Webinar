@@ -6,7 +6,9 @@ h1 {
   color: white;
   text-align: center;
   opacity: 0;
-  animation: fade 4s forwards;
+  animation-name: fade;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
   font-size: 60px;
   color: grey;
   text-shadow: 0px 10px 12px #43a047;
@@ -27,27 +29,38 @@ h1 {
   margin: 10px;
   box-shadow: 0 0 10px #fff;
   border-radius: 10px;
+  transition: background-color 1.5s;
 }
-.box:nth-child(5n):hover {
+.box:nth-child(6n):hover {
   background-color: #8e44ad;
   box-shadow: 0 0 20px #fff;
+  transition-duration: 0s;
 }
-.box:nth-child(5n + 1):hover {
+.box:nth-child(6n + 1):hover {
   background-color: #2196f3;
   box-shadow: 0 0 20px #fff;
+  transition-duration: 0s;
 }
 
-.box:nth-child(5n + 2):hover {
+.box:nth-child(6n + 2):hover {
   background-color: #43a047;
   box-shadow: 0 0 20px #fff;
+  transition-duration: 0s;
 }
-.box:nth-child(5n + 3):hover {
-  background-color: #eeff41;
+.box:nth-child(6n + 3):hover {
+  background-color: #e758cf;
   box-shadow: 0 0 20px #fff;
+  transition-duration: 0s;
 }
-.box:nth-child(5n + 4):hover {
+.box:nth-child(6n + 4):hover {
   background-color: #ef5350;
   box-shadow: 0 0 20px #fff;
+  transition-duration: 0s;
+}
+.box:nth-child(6n + 5):hover {
+  background-color: #eeff41;
+  box-shadow: 0 0 20px #fff;
+  transition-duration: 0s;
 }
 @keyframes fade {
   to {
