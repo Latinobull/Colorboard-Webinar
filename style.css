@@ -9,9 +9,12 @@ h1 {
   animation-name: fade;
   animation-duration: 4s;
   animation-fill-mode: forwards;
-  font-size: 60px;
-  color: grey;
-  text-shadow: 0px 10px 12px #43a047;
+  font-size: 80px;
+  color: rgb(255, 255, 255, 09);
+  font-family: 'Yellowtail', sans-serif;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px rgb(17, 255, 0),
+    0 0 82px rgb(17, 255, 0);
+  margin: 50px 0px;
 }
 
 .container {
@@ -19,7 +22,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   background-color: rgb(19, 19, 19);
-  padding: 50px 0px;
+  padding: 100px 0px;
 }
 .box {
   width: 240px;
